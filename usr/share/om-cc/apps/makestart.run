@@ -1,0 +1,4 @@
+#!/bin/bash
+echo 'autostart=1' > ~/.om-cc;
+
+kdialog --title $"OpenMandriva"  --msgbox  $" The om-cc will initialize with the system";
